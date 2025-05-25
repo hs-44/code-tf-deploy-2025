@@ -10,7 +10,7 @@
 
 terraform {
   backend "s3" {
-    bucket = "aws-devops-testbucket-cb"
+    bucket = "aws-devops-testbucket-for-cb-25"
     key    = "terraformstates/qa.tfstate"
     region = "ap-south-1"
   }
