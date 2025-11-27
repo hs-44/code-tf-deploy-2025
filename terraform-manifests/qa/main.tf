@@ -21,9 +21,10 @@ module "infra_services" {
   public_cidr = "172.31.1.0/24"
   private_cidr = "172.31.2.0/24"
   private_cidrs = ["172.31.5.0/24","172.31.6.0/24"]
-  bucket_name = "qa-terraform-s3-bucket-data28Nov"
+  bucket_name = "qa-terraform-s3-bucket-data28nov"
   bucket_acl  = "private"
   instance_key_name = "hs1"
 }
+
 
 
